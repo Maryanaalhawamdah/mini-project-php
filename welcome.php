@@ -25,10 +25,10 @@
         }
         a{
             position: absolute;
-            bottom: 15%;
-            right: 15%;
-            color: white;
-            font-size: 2rem;
+            top: 10%;
+            right: 20%;
+            color: black;
+            font-size: 1rem;
             
         }
 
@@ -58,6 +58,6 @@
         header("Location: login.html"); // Redirect to login if not authenticated
     }
     ?>
-    <a href="logout.php">Logout</a>
+    <a href="logout.php" >Logout</a>
 </body>
 </html>

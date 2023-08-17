@@ -11,20 +11,21 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', 'sans-serif';
+   
 }
 
 /* Global styles */
 body {
-    background-image: url(./img/be3606392b4c06881acf4009569d31ba.jpg);
+    background-image: url(./48cbe37c4a5095c211e63039d66b452a.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
     justify-content: center;
     width: 100%;
     min-height: 100vh;
-    background-color: #f5f5f5; 
+    background-color: #656262; 
     
-    color: #333;
+    color: #525050;
 }
 
 /* section{
@@ -44,7 +45,7 @@ body {
     top: 5vh;
     width: 450px;
     height: 90vh;
-    background: transparent;
+    /* background: transparent; */
     border-radius: 20px;
     display: flex;
     justify-content: center;
@@ -61,7 +62,7 @@ body {
 h2 {
     /* margin-top: 20px; */
     font-size: 2rem;
-    color: #fff;
+    color: #030202;
     text-align: center;
 }
 
@@ -80,7 +81,7 @@ h2 {
 .form-group .icons {
         position: absolute;
         right: 8px;
-        color: #fff;
+        color: #292424;
         font-size: 1.2rem;
         line-height: 75px;
 
@@ -93,7 +94,7 @@ label {
     left: 5px;
     transform: translateX(-50%);
     font-size: 1rem;
-    color: #fff;
+    color: #110d0d;
     pointer-events: none;
     /* display: block;
     margin-bottom: 5px; */
@@ -110,7 +111,7 @@ input[type="date"] {
     border: none;
     outline: none;
     font-size: 1rem;
-    color: #fff;
+    color: #0f0e0e;
     padding: 0 35px 0 5px;
     /* padding: 10px; */
     /* border: 1px solid #ccc;
@@ -127,15 +128,15 @@ input[type="email"]:valid~label,
 input[type="tel"]:valid~label,
 input[type="password"]:valid~label,
 input[type="date"]:valid~label {
-    top: -5px;
+    top: -2px;
 }
 input[id="email"]:focus~label, input[id="email"]:valid~label{
-    top: -5px;
+    top: -2px;
 }
 
 .register-link{
     margin: 15px 0 15px;
-    color: #fff;
+    color: #0e0b0b;
     display: flex;
     justify-content: start;
 }
@@ -154,7 +155,7 @@ input[id="email"]:focus~label, input[id="email"]:valid~label{
 
 .form-footer{
     margin: 15px 0 15px;
-    color: #fff;
+    color: #181313;
     display: flex;
     justify-content: start;
 }

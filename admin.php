@@ -41,7 +41,7 @@
     }
     ?>
     <div class="admin">
-    <a href="logout.php">Logout</a>
+    <a href="logout.php" id="adm" >Logout</a>
     </div>
     
 </body>

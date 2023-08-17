@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            padding: 0.3rem;
+            /* background-color: #007bff; */
+            color: rgb(0, 0, 0);
+        }
+
+        .container {
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .form-group {
+            text-align: left;
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        input[type="date"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .btn {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+        .error-message{
+            color: red;
+            font-size: 0.75rem;
+
+        }
+    </style> -->
+</head>
+
+<body>
+    <!-- <div class="header">
+        
+        <p>Please fill this form to create an account</p>
+    </div> -->
+    <div class="container">
+        
+        <form>
+                <h2>Sign Up</h2>
+          
+            <div class="form-group">
+                <span class="icons"></span>
+                <input type="text" id="fullName" name="fullName" required>
+                <label for="fullName">Full Name</label>
+            </div>
+            <div class="form-group">
+                <span class="icons"><ion-icon name="mail"></ion-icon></span>
+                <input type="email" id="email" name="email" required>
+                <label for="email">Email</label>
+            </div>
+            <div class="form-group">
+                <span class="icons"><ion-icon name="mail"></ion-icon></span>
+                <input type="tel" id="mobile" name="mobile" required>
+                <label for="mobile">Mobile</label>
+            </div>
+            <div class="form-group">
+                <span class="icons"></span>
+                <span class="icons"></span>
+                <input type="date" id="dob" name="dob" required>
+                <!-- <label for="dob">Date of Birth</label> -->
+            </div>
+            <div class="form-group">
+                <span class="icons"><ion-icon name="lock-closed"></ion-icon></span>
+                <input type="password" id="password" name="password" required>
+                <label for="password">Password</label>
+            </div>
+            <div class="form-group">
+                <span class="icons"><ion-icon name="lock-closed"></ion-icon></span>
+                <input type="password" id="confirmPassword" name="confirmPassword" required>
+                <label for="confirmPassword">Confirm Password</label>
+            </div>
+            <button type="submit" class="btn">Sign Up</button>
+            <div class="register-link">
+                <p>Already have an account? <a class="login" href="login.html">Log in here</a></p>
+            </div>
+        </form>
+        
+    </div>
+    <script src="validation.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
